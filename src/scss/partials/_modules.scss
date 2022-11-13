@@ -1,6 +1,22 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
+.about{
+    &-s1,&-s2{
+        background-position-x: center!important;
+    }
+    &-s3{
+        background-position-x: 35%!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: center!important;
+    }
+}
 .services{
+    &-s1{
+        background-position-x: center!important;
+    }
     &-s3{
         *{
             color: #fff !important;
@@ -15,6 +31,11 @@
     &-shadow{
         text-shadow: $text__shadow;
     }
+}
+
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "KaushanScript";
+    letter-spacing: 2px;
 }
 
 nav{
